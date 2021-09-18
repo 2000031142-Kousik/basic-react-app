@@ -1,0 +1,20 @@
+.wrapperb {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(12rem,16rem));
+  justify-content: center;
+}
+.photo {
+  max-width: 100%;
+  height:auto;
+  align-items: center;
+}
+.title, .ID, .Collage,.address,.phoneno, .dept, .accomodation {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 2px 20px;
+  border-radius: 10px;
+  border-color: gray;
+  cursor:pointer;
+}
